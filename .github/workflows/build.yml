@@ -13,7 +13,7 @@ jobs:
         node-version: 16.x
     - run: npm ci
     - run: npm test
-    build:
+  build:
     name: Build and Deploy
     needs: test
     runs-on: ubuntu-latest
